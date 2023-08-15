@@ -1,0 +1,27 @@
+[
+  {
+
+    "rbOption" : "Female",
+    "rbgrpSex" : "Female",
+    "rbgrpAge" : "15 - 50",
+
+    "day" : "Wednesday",
+    "country" : "Japan",
+
+    "name" : "Tom",
+    "comment" : "Hello World!"
+  },
+
+  {
+    "rbOption" : "Male",
+    "rbgrpSex" : "Male",
+    "rbgrpAge" : "0 - 5",
+
+    "day" : "Thursday",
+    "country" : "India",
+
+    "name" : "Mary",
+    "comment" : "Hi World!"
+  }
+
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <groups>
+        <run>
+            <!---<include name="InputForms"/>
+            <include name="DatePickers"/>
+            <include name="Table"/>
+            <include name="ProgressBarsSliders"/>-->
+            <include name="AlertsModals"/>
+        </run>
+    </groups>
+    <test thread-count="1" name="Submit Order Test">
+        <classes>
+            <class name="FinalActivity.testFinalActivity"/>
+        </classes>
+    </test>
+</suite>
